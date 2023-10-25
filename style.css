@@ -1,0 +1,25 @@
+body {
+  font-family: 'RC Textos', helvetica, sans-serif;
+}
+
+
+.navbar {
+  background-color: #ff001b !important;
+}
+
+.nav-item a {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff
+}
+
+.btn-right-nav {
+  background: #fff;
+  border-color: #ff001b;
+  color: #ff001b;
+}
+
+
+
