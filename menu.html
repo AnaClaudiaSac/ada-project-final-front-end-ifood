@@ -19,7 +19,9 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/logo-smile-200px.png" alt="Imagem do ícone do Ifood"></a>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo-smile-200px.png" width="100" height="100" alt="Imagem do ícone do Ifood">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="ms-auto">
             <ul class="navbar-nav mb-2 mb-lg-0 d-flex g-4">
-              <li class="nav-item fs-4 text">
+              <li class="nav-item fs-5 text">
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item fs-4 text">
-                <a class="nav-link active" href="menu.html">Cardápio</a>
+              <li class="nav-item fs-5 text">
+                <a class="nav-link active" href="#">Cardápio</a>
               </li>
-              <li class="nav-item fs-4 text">
+              <li class="nav-item fs-5 text">
                 <a class="nav-link" href="contato.html">Contato</a>
               </li>
             </ul>
@@ -48,178 +50,280 @@
     <div class="row">
       <div class="col-12">
         <h3 class="fw-bold">Pizzas</h3>
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mais vendidos</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Entrega grátis</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Todos</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-            tabindex="0">
-
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/margherita-03.jpg" class="card-img-top" height="210" alt="Foto de Pizza">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Pizza de Margherita</h5>
-                    <p class="card-text">Molho de tomate fresco, a combinação de queijo mussarela, que derretem e criam
-                      uma
-                      camada cremosa. Por fim é finalizada com folhas de manjericão fresco.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 70,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-
-                  </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/margherita-03.jpg" class="card-img-top" height="210" alt="Foto de Pizza">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pizza de Margherita</h5>
+                <p class="card-text">Molho de tomate fresco, a combinação de queijo mussarela, que derretem e criam
+                  uma
+                  camada cremosa. Por fim é finalizada com folhas de manjericão fresco.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 70,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
                 </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/pizzacalab02.jpg" class="card-img-top" height="210" alt="Foto de Pizza">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Pizza de Calabreza</h5>
-                    <p class="card-text">Molho de tomate fresco, queijo mussarela, fatias de linguiça calabresa
-                      cebolas e azeitonas pretas são espalhadas uniformemente sobre a pizza.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 68,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
 
-                  </div>
-                </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/pizzaqueijo1.png" class="card-img-top" height="210" alt="Foto de Pizza">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Pizza de Quatro Queijos</h5>
-                    <p class="card-text">Molho de tomate fresco a combinação desses quatro queijos cria uma pizza rica
-                      em sabores, com a cremosidade da mussarela, gorgonzola, parmesão e o toque do provolone.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 65,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/pizzacalab02.jpg" class="card-img-top" height="210" alt="Foto de Pizza">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pizza de Calabreza</h5>
+                <p class="card-text">Molho de tomate fresco, queijo mussarela, fatias de linguiça calabresa
+                  cebolas e azeitonas pretas são espalhadas uniformemente sobre a pizza.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 68,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
                 </div>
+
               </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/pizzaport01.png" class="card-img-top" height="210" alt="Foto de Pizza">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Pizza Potuguesa</h5>
-                    <p class="card-text">Molho de tomate fresco, presunto, o sabor defumado da linguiça, a cremosidade
-                      do queijo, a riqueza dos ovos cozidos e o toque de cebola e azeitonas.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 70,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/pizzaqueijo1.png" class="card-img-top" height="210" alt="Foto de Pizza">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pizza de Quatro Queijos</h5>
+                <p class="card-text">Molho de tomate fresco a combinação desses quatro queijos cria uma pizza rica
+                  em sabores, com a cremosidade da mussarela, gorgonzola, parmesão e o toque do provolone.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 65,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
                 </div>
               </div>
             </div>
-
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <div class="position-absolute p-3">
+                <span class="badge rounded-pill text-bg-success">Desconto</span>
+              </div>
+              <img src="/assets/pizzaport01.png" class="card-img-top" height="210" alt="Foto de Pizza">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pizza Potuguesa</h5>
+                <p class="card-text">Molho de tomate fresco, presunto, o sabor defumado da linguiça, a cremosidade
+                  do queijo, a riqueza dos ovos cozidos e o toque de cebola e azeitonas.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 70,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="col-12">
         <h3 class="fw-bold">Brasileiro</h3>
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mais vendidos</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Entrega grátis</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Todos</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-            tabindex="0">
-
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/bife-a-cavalo.jpg" class="card-img-top" height="210"
-                    alt="Foto de um prato com bife, ovo, arroz e feijão">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Bife a Cavalo</h5>
-                    <p class="card-text"> O bife é acompanhado por outros itens, como arroz, Ovo frito, batatas
-                      fritas, feijão, farofa, legumes ou salada, de acordo com a preferência do cliente.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 30,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
-                </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <div class="position-absolute p-3">
+                <span class="badge rounded-pill text-bg-success">Desconto</span>
               </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/br-feijoada01.jpg" class="card-img-top" height="210"
-                    alt="Foto uma cumbuca com feijoada">
-                  <div class="card-body">
-                    <h5 class="card-title">Feijoada</h5>
-                    <p class="card-text">Feijão preto, linguiça, carne seca, costela de porco, bacon, orelha e pé de
-                      porco., folhas de louro e resultando em um caldo rico e aromático.
-                    </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 45,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/frango-assado-com-batata01.jpg" class="card-img-top" height="210" alt="Foto ">
-                  <div class="card-body">
-                    <h5 class="card-title">Frango com batatas assadas</h5>
-                    <p class="card-text"> Frango asssado pode ser cortado em pedaços, como coxas, sobrecoxas, peitos
-                      ou asas, ou pode ser assado inteiro. Acompanha Batatas assadas e farofa. </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 40,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card shadow mb-5 bg-body-tertiary rounded">
-                  <img src="/assets/baiaopronto02.jpg" class="card-img-top" height="210"
-                    alt="Foto de macarrão e frango e farofa ">
-                  <div class="card-body">
-                    <h5 class="card-title">Baião de Dois</h5>
-                    <p class="card-text"> Arroz e feijão-verde (ou feijão-fradinho) com carne de sol, queijo coalho, e uma seleção de temperos e condimentos. O resultado é uma refeição rica em sabores e texturas. </p>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="fs-5 mb-0">R$ 35,00</p>
-                      <a href="#" class="btn btn-ifood">Comprar</a>
-                    </div>
-                  </div>
+              <img src="/assets/bife-a-cavalo.jpg" class="card-img-top" height="210"
+                alt="Foto de um prato com bife, ovo, arroz e feijão">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Bife a Cavalo</h5>
+                <p class="card-text"> O bife é acompanhado por outros itens, como arroz, Ovo frito, batatas
+                  fritas, feijão, farofa, legumes ou salada, de acordo com a preferência do cliente.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 30,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <div class="position-absolute p-3">
+                <span class="badge rounded-pill text-bg-primary">Mais Vendido</span>
+              </div>
+              <img src="/assets/br-feijoada01.jpg" class="card-img-top" height="210"
+                alt="Foto uma cumbuca com feijoada">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Feijoada</h5>
+                <p class="card-text">Feijão preto, linguiça, carne seca, costela de porco, bacon, orelha e pé de
+                  porco., folhas de louro e resultando em um caldo rico e aromático.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 45,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/frango-assado-com-batata01.jpg" class="card-img-top" height="210" alt="Foto ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Frango com batatas</h5>
+                <p class="card-text"> Frango asssado pode ser cortado em pedaços, como coxas, sobrecoxas, peitos
+                  ou asas, ou pode ser assado inteiro. Acompanha Batatas assadas e farofa. </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 40,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/baiaopronto02.jpg" class="card-img-top" height="210"
+                alt="Foto de macarrão e frango e farofa ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Baião de Dois</h5>
+                <p class="card-text"> Arroz e feijão-verde (ou feijão-fradinho) com carne de sol, queijo coalho, e
+                  uma seleção de temperos e condimentos. O resultado é uma refeição rica em sabores e texturas. </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 35,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-12">
+        <h3 class="fw-bold">Japonesa</h3>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/tempura.jpg" class="card-img-top" height="210"
+                alt="Foto de um prato com bife, ovo, arroz e feijão">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Tempura</h5>
+                <p class="card-text">De origem portuguesa, o tempurá se tornou um dos pratos clássicos da comida
+                  japonesa. A iguaria de massa fluida, feita à base de farinha de trigo e frita.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 30,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <div class="position-absolute p-3">
+                <span class="badge rounded-pill text-bg-primary">Mais Vendido</span>
+              </div>
+              <img src="/assets/temaki.jpg" class="card-img-top" height="210" alt="Foto uma cumbuca com feijoada">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Temaki</h5>
+                <p class="card-text">Este cone feito de algas secas e crocantes caiu definitivamente no gosto dos
+                  brasileiros. Ele pode trazer os mais diferentes recheios, porém os mais comuns são atum, pepino, kani.
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 45,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/missoshiru.jpg" class="card-img-top" height="210" alt="Foto ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Missoshiru</h5>
+                <p class="card-text">Servida quente, antes do prato principal ou no café da manhã, a missoshiru é uma
+                  sopa feita à base de pasta de soja, dashi (caldo de peixe).</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 40,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/hot-roll.jpg" class="card-img-top" height="210"
+                alt="Foto de macarrão e frango e farofa ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Hot Roll</h5>
+                <p class="card-text">Sushi empanado e frito, o hot roll é um prato consumido quente ou frio. É feito com
+                  alga, arroz para sushi, salmão e, no Brasil, com um toque de cream cheese.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 35,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <h3 class="fw-bold">Sobremesas</h3>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/sorv13.png" class="card-img-top" height="210"
+                alt="Foto de um prato com bife, ovo, arroz e feijão">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Sorvetes</h5>
+                <p class="card-text">É uma combinação perfeita de textura cremosa com o toque final da calda que derrete sobre o sorvete, proporcionando um sabor irresistível e agradável. 
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 20,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/brigadeiro.webp" class="card-img-top" height="210" alt="Foto uma cumbuca com feijoada">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Brigadeiro</h5>
+                <p class="card-text"> Brigadeiro é uma sobremesa tradicional, bolinhas de doce feitas a partir de uma mistura de leite condensado, chocolate em pó, manteiga e chocolate granulado. 
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 15,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <img src="/assets/pudim.webp" class="card-img-top" height="210" alt="Foto ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pudim</h5>
+                <p class="card-text"> Pudim sobremesa cremosa, doce e rica em sabor e uma camada de caramelo no topo. É uma escolha clássica para os amantes de doces e uma delícia derrete na boca. </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 20,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card shadow mb-5 bg-body-tertiary rounded">
+              <div class="position-absolute p-3">
+                <span class="badge rounded-pill text-bg-primary">Mais Vendido</span>
+              </div>
+              <img src="/assets/bolo-de-cenoura-1.jpg" class="card-img-top" height="210"
+                alt="Foto de macarrão e frango e farofa ">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Bolos</h5>
+                <p class="card-text">bolo macio, levemente úmido e com um sabor suave de cenoura, coberto com uma camada doce de chocolate, tornando-o uma sobremesa clássica e adorada. </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <p class="fs-5 mb-0">R$ 40,00</p>
+                  <a href="#" class="btn btn-ifood">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -233,13 +337,13 @@
     <div class="container py-4">
       <div class="row">
 
-        <div class="col-12 d-flex justify-content-center ">
+        <div class="col-12 d-flex justify-content-center">
           <a class="navbar-brand" href="#">
-            <img src="./assets/logo-smile-200px.png" width="200" alt="Imagem do ícone do Ifood">
+            <img src="./assets/logo-smile-200px.png" width="100" height="100" alt="Imagem do ícone do Ifood">
           </a>
         </div>
-        <div class="col-12 d-flex  flex-column  align-items-center mb-5">
-          <p class="text-white">© Copyright 2023 - iFood - Todos os direitos reservados iFood com Agência de
+        <div class="col-12 d-flex flex-column align-items-center mb-3">
+          <p class="text-white mb-0">© Copyright 2023 - iFood - Todos os direitos reservados iFood com Agência de
             Restaurantes Online S.A.</p>
           <p class="text-white">CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP
             06.020-902</p>

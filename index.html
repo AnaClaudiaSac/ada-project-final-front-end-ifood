@@ -19,21 +19,27 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/logo-smile-200px.png" alt="Imagem do ícone do Ifood"></a>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo-smile-200px.png" width="100" height="100" alt="Imagem do ícone do Ifood">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="ms-auto">
+          <div class="d-none d-lg-flex ms-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite seu endereço" aria-label="Search">
+            <button class="btn btn-light" type="button">Buscar</button>
+          </div>
+          <div>
             <ul class="navbar-nav mb-2 mb-lg-0 d-flex g-4">
-              <li class="nav-item fs-4 text">
+              <li class="nav-item fs-5 text">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item fs-4 text">
+              <li class="nav-item fs-5 text">
                 <a class="nav-link" href="menu.html">Cardápio</a>
               </li>
-              <li class="nav-item fs-4 text">
+              <li class="nav-item fs-5 text">
                 <a class="nav-link" href="contato.html">Contato</a>
               </li>
             </ul>
@@ -42,18 +48,22 @@
       </div>
     </nav>
     <div class="container py-4">
-      <h1 class="fw-bolder fs-1 text-center"> O jeito mais fácil e eficiente de pedir comida</h1>
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+          <h1 class="fw-bolder fs-1 text-center">Peça comida com entrega grátis nas primeiras compras</h1>
+          <p class="fs-5 py-2 text-center">Bem-vindos a uma nova era do iFood, onde inovação e conveniência
+            se unem. Explore um mundo de opções gastronômicas, recursos aprimorados e uma experiência culinária
+            totalmente nova. Uma
+            entrega eficiente e mais rápida do que nunca. Opções de restaurantes e supermercados ampliadas. Explore,
+            escolha e
+            desfrute de sua comida favorita com facilidade. Experimente o futuro da entrega de alimentos com o iFood
+            renovado."</p>
 
-      <h1 class="fs-1 fw-semi-bolder text-center"> "iFood: Saboreie a Revolução na Entrega de Alimentos"
-        "O Sabor da Inovação na Sua Porta"</h1>
-
-      <p class="fs-4 py-2 text-center">Boa tarde! Bem-vindos a uma nova era do iFood, onde inovação e conveniência se
-        unem. Explore
-        um mundo de opções gastronômicas, recursos aprimorados e uma experiência culinária totalmente nova. Uma entrega
-        eficiente e mais rápida do que nunca. Opções de restaurantes e supermercados ampliadas. Explore, escolha e
-        desfrute de sua comida favorita com facilidade. Experimente o futuro da entrega de alimentos com o iFood
-        renovado."
-      <p class="fs-3  fw-medium"> Uma nova experiência à sua espera.</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="assets/entregador.jpeg" class="img-fluid rounded" />
+        </div>
+      </div>
     </div>
   </header>
 
@@ -116,9 +126,11 @@
 
     </div>
     <div class="row mt-5">
-      <a href="#" class="btn btn-link btn-link-ifood fw-semibold text-decoration-none fs-5">Ver cardápio completo</a>
+      <a href="menu.html" class="btn btn-link btn-link-ifood fw-semibold text-decoration-none fs-5">Ver cardápio
+        completo</a>
     </div>
   </div>
+
   <section class="container py-4">
     <h1 class="text-center mb-5 fw-bold">Peça nos principais restaurantes</h1>
     <div class="row">
@@ -200,6 +212,7 @@
       </div>
     </div>
   </section>
+
   <section class="container py-4">
     <h1 class="text-center my-5 fw-bold">Preencha o fomulário</h1>
     <form onsubmit="onSubmit()" class="row g-3 mt-5">
@@ -211,7 +224,9 @@
         <label for="validationDefaultUsername" class="form-label fw-bold">E-mail:</label>
         <div class="input-group">
           <span class="input-group-text" id="inputGroupPrepend2">@</span>
-          <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+          <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+            pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+            required>
         </div>
       </div>
       <div class="col-md-4">
@@ -243,13 +258,13 @@
     <div class="container py-4">
       <div class="row">
 
-        <div class="col-12 d-flex justify-content-center ">
+        <div class="col-12 d-flex justify-content-center">
           <a class="navbar-brand" href="#">
-            <img src="./assets/logo-smile-200px.png" width="200" alt="Imagem do ícone do Ifood">
+            <img src="./assets/logo-smile-200px.png" width="100" height="100" alt="Imagem do ícone do Ifood">
           </a>
         </div>
-        <div class="col-12 d-flex  flex-column  align-items-center mb-5">
-          <p class="text-white">© Copyright 2023 - iFood - Todos os direitos reservados iFood com Agência de
+        <div class="col-12 d-flex flex-column align-items-center mb-3">
+          <p class="text-white mb-0">© Copyright 2023 - iFood - Todos os direitos reservados iFood com Agência de
             Restaurantes Online S.A.</p>
           <p class="text-white">CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP
             06.020-902</p>
