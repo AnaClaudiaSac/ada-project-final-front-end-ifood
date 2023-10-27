@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -42,22 +42,98 @@
       </div>
     </nav>
     <div class="container py-4">
-      <h1 class="fw-bolder fs-1 text-center"> O jeito mais fácil e eficiente de pedir comida</h1>
+      <h1 class="fw-bolder fs-1 text-center">Entre em contato, e eleve seu negócio para o próximo nível</h1>
 
-      <h1 class="fs-1 fw-semi-bolder text-center"> "iFood: Saboreie a Revolução na Entrega de Alimentos"
-        "O Sabor da Inovação na Sua Porta"</h1>
+      <div class="row py-4 mt-5">
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mx-5">
+            <div class="d-flex py-4 justify-content-center">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #ff001b; height: 70px; width: 70px;">
+                <i class="fa-solid fa-truck-fast fa-2xl text-white"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="text-center fw-bold">Entrega otimizada</h5>
+              <p class="text-center">Otimize sua entrega, ganhe mais agilizade, com a distribuição inteligente</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mx-5">
+            <div class="d-flex py-4 justify-content-center">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #ff001b; height: 70px; width: 70px;">
+                <i class="fa-solid fa-eye fa-2xl text-white"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="text-center fw-bold">Visibilidade</h5>
+              <p class="text-center">Nó temos milhões usuários ativos, mais visibilidade para o seu negócio</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mx-5">
+            <div class="d-flex py-4 justify-content-center">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #ff001b; height: 70px; width: 70px;">
+                <i class="fa-solid fa-truck-fast fa-2xl text-white"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="text-center fw-bold">Redução de custo</h5>
+              <p class="text-center">Tudo centralizado no ifood, entregas, plataformas, pagamentos, etc...</p>
+            </div>
+          </div>
+        </div>
 
-      <p class="fs-4 py-2 text-center">Boa tarde! Bem-vindos a uma nova era do iFood, onde inovação e conveniência se
-        unem. Explore
-        um mundo de opções gastronômicas, recursos aprimorados e uma experiência culinária totalmente nova. Uma entrega
-        eficiente e mais rápida do que nunca. Opções de restaurantes e supermercados ampliadas. Explore, escolha e
-        desfrute de sua comida favorita com facilidade. Experimente o futuro da entrega de alimentos com o iFood
-        renovado."
-      <p class="fs-3  fw-medium"> Uma nova experiência à sua espera.</p>
+      </div>
     </div>
   </header>
 
- 
+  <section class="container py-4">
+    <h1 class="text-center my-5 fw-bold">Preencha o fomulário</h1>
+    <form onsubmit="onSubmit()" class="row g-3 mt-5">
+      <div class="col-md-4">
+        <label for="validationDefault01" class="form-label fw-bold">Nome Completo:</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="Ex: João Silva" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label fw-bold">E-mail:</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+          <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+            pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+            required>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault03" class="form-label fw-bold">Telefone:</label>
+        <input type="text" class="form-control" id="validationDefault03" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+          placeholder="Ex: 99-99999-9999" required>
+      </div>
+      <div class="col-md-12">
+        <label for="validationDefault04" class="form-label fw-bold">Assunto:</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Escolha...</option>
+          <option>Dúvidas</option>
+          <option>Críticas</option>
+          <option>Sugestões</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <label for="floatingTextarea2" class="form-label fw-bold">Mensagem:</label>
+        <textarea class="form-control" placeholder="Envie sua mensagem" id=floatingTextarea2
+          style="height: 100px"></textarea>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-ifood" type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+
 
   <footer>
     <div class="container py-4">
