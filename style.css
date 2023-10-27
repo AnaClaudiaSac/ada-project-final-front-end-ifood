@@ -3,7 +3,7 @@ body {
 }
 
 
-.navbar {
+.navbar, footer {
   background-color: #ff001b !important;
 }
 
@@ -20,6 +20,33 @@ body {
   border-color: #ff001b;
   color: #ff001b;
 }
+ .btn-ifood{
+  background-color: #ff001b;
+  color: #fff;
+ }
 
 
+ .btn-link-ifood {
+  
+  color:#ff001b;
+
+ }
+ .card-description {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.social-iten{
+  width: 46px;
+  height: 46px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+}
+
+ .social-icon {
+  width: 40px;
+ }
 
